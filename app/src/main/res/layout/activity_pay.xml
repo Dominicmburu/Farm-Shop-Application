@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/details"
+    tools:context=".PayActivity"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/toPayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="CHECKOUT"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/border"
+        android:hint="254700000000"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/totalAmountEditText"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/border"
+        android:hint="Ksh 0.0"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/rounded_button"
+        android:text="PAY"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

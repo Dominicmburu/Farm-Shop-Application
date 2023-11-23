@@ -1,0 +1,13 @@
+<!-- res/drawable/border_drawable.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00FFFFFF" /> <!-- Transparent fill color -->
+            <stroke
+                android:width="2dp"
+            android:color="#E4E5EC"/>
+            <corners android:radius="3dp"/>
+<!--            <solid android:color="#D7007FFF"/>-->
+        </shape>
+    </item>
+</layer-list>
