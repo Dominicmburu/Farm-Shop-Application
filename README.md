@@ -1,5 +1,4 @@
 # Farm-Shop-Application
-Farm Shop is an application developed in Android using java. This application help customers buy farm produces such as milk, bananas, strawberry, etc. I have also integrated payment method using Mpesa.
 # Farm-Shop-Application Farm Shop is an application developed in Android using java. This application help customers buy farm produces such as milk, bananas, strawberry, etc. I have also integrated payment method using Mpesa.
 
 Page 1
